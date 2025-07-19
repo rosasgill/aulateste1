@@ -1,0 +1,26 @@
+ID do Cenário: Login 001-Login Bloqueado
+○ Nome do Cenário: O login foi bloqueado
+○ Pré-condições: Não aplicável
+○ Passos de Execução: Inserção do Login: locked_out_user e senha: secret_sauce 
+○ Resultado Esperado: um mensagem Sorry, this user has been locked out.
+
+ID do Cenário: Login 002-Login com sucesso
+○ Nome do Cenário: O login foi realizado com sucesso
+○ Pré-condições: Não aplicável
+○ Passos de Execução: Inserção do Login:standard_user e senha: secret_sauce 
+○ Resultado Esperado: passar para uma tela do html
+
+ID do Cenário: Login 003-Login com problem_user
+○ Nome do Cenário: O login foi realizado com sucesso, porém com limitações de imagens
+○ Pré-condições: Não aplicável
+○ Passos de Execução: Inserção do Login:problem_user e senha: secret_sauce 
+○ Resultado Esperado: passar para uma tela html, porém com imagens bugada
+
+ID do Cenário: Adicionar um item ao carrinho
+○ Nome do Cenário: O login foi realizado com sucesso, faz a ação de colocar um item no carrinho
+○ Pré-condições: Não aplicável
+○ Passos de Execução: Inserção do Login do cenário 1, passa a tela html da loja e aperta ao botão adiciona carrinho
+○ Resultado Esperado: passar para uma tela html com as informações do item adicionado ao carrinho.
+
+
+
